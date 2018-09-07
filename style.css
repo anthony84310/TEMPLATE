@@ -1,0 +1,52 @@
+/*
+Theme Name: Univers
+
+ */
+body{
+background: #6a3093;  /* fallback for old browsers */
+background: -webkit-linear-gradient( #000000, #620aaf);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(#000000, #620aaf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.container{
+      display: flex;
+}
+.my-header-menu a{
+   color: white;
+   text-decoration: none;
+   padding: 0 20px;
+   border: solid 2px;
+   padding:  10px 20px;
+  }
+.my-header-menu{
+    display: flex;
+    margin-top: 30px;
+    font-size:1.5em;
+    margin-left: 20px;
+    
+    
+  }
+
+  .my-header-menu li{
+   display: inline;
+   padding: 0 20px;
+   left: 500px;
+  }
+
+  .my-header-menu li a:hover{
+
+   color: black;
+   font-weight: 400;
+   padding: 10px 20px;
+   text-decoration: none;
+   background-color: white;
+   border: solid 2px white;
+  }
+
+.logo{
+    padding: 20px 0 0 90px;
+    position: fixed;
+    z-index: 1000;
+    
